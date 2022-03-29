@@ -1,0 +1,3 @@
+/node_modules
+.gitignore
+src/configs/arduino-ua.config.ts

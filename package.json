@@ -1,0 +1,44 @@
+{
+  "name": "be-ts-node-template",
+  "version": "1.0.0",
+  "description": "Simple template for BE app ",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/cli-progress": "^3.9.2",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.8",
+    "@types/node-schedule": "^1.3.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn src/app.ts set NODE_ENV=development"
+  },
+  "keywords": [
+    "BE",
+    "template",
+    "TS",
+    "Node",
+    "Express"
+  ],
+  "author": "EMV",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.30",
+    "ansi-colors": "^4.1.1",
+    "axios": "^0.24.0",
+    "bluebird": "^3.7.2",
+    "cheerio": "^1.0.0-rc.10",
+    "cli-progress": "^3.10.0",
+    "excel4node": "^1.7.2",
+    "express": "^4.17.2",
+    "helmet": "^5.0.1",
+    "image-downloader": "^4.0.3",
+    "json2csv": "^5.0.6",
+    "mongoose": "^6.1.6",
+    "node-schedule": "^2.1.0",
+    "text-cleaner": "^1.2.1"
+  }
+}
